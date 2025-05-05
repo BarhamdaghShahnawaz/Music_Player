@@ -75,13 +75,13 @@ nav ul li {
 #myProgressBar {
     width: 80vw;
     text-align: center;
+    cursor: pointer;
 }
 
 .songs {
     height: 50px;
     display: flex;
     background-color: #ffffff;
-    width: 80%;
     color: #000;
     margin: 12px 0;
     justify-content: space-between;
@@ -97,6 +97,25 @@ nav ul li {
 
 .timestamp{
     margin: 0 20px;
+}
+
+.timestamp i{
+ cursor: pointer;
+}
+
+.songscontainer{
+    margin-top: 20px;
+}
+
+.songinfo{
+    position: absolute;
+    font-family: Ubuntu;
+    left: 10vw;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
 }
 
 /* Fonts */
