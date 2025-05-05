@@ -42,7 +42,7 @@ nav ul li {
 
 .bottom {
     position: sticky;
-    height: 100px;
+    height: 80px;
     background-color: #000;
     color: #ffffff;
     bottom: 0;
@@ -61,9 +61,15 @@ nav ul li {
 }
 
 .container {
-    height: 75vh;
+    height: 72vh;
     background-color: #000;
     color: #ffffff;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 30px;
+    background: url(./assets/images/background.jpg) no-repeat center center/cover;
 }
 
 #myProgressBar {
@@ -71,6 +77,27 @@ nav ul li {
     text-align: center;
 }
 
+.songs {
+    height: 50px;
+    display: flex;
+    background-color: #ffffff;
+    width: 80%;
+    color: #000;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songs img {
+    width: 40px;
+    margin: 0 20px;
+    border: 1px solid black;
+}
+
+.timestamp{
+    margin: 0 20px;
+}
 
 /* Fonts */
 @font-face {
