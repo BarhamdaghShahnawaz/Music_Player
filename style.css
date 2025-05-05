@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fffbf4;
+}
+
+nav{
+    font-family: Ubuntu;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+    background: #000;
+    color: #ffffff;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+
+.brand img{
+    width: 60px;
+    padding: 0 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: #000;
+    bottom: 0;
+}
+
+.container{
+    height: 75vh;
+}
+
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+}
+
+
+/* Fonts */
+@font-face {
+    font-family: Ubuntu;
+    src: url(./assets/fonts/Ubuntu-Medium.ttf);
+}
